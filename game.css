@@ -1,0 +1,39 @@
+body{
+    background: url(i.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.keys{
+    margin-left: 300px;
+    margin-top: 250px; 
+    display: flex;
+    float: left;
+    width:100%;
+    height: 100%;
+}
+
+.key{
+    transition: all 0.07;
+    text-align: center;
+    border: 3px solid white;
+    margin-left: 40px;
+    width: 55px;
+}
+
+.playing{
+    transform: scale(1.1);
+    border: 4px solid yellow;
+}
+
+kbd{
+    font-size: 40px;
+}
+
+.Sound{
+    color: yellow;
+}
+
+.key:hover {
+    border: 4px solid yellow;
+}
